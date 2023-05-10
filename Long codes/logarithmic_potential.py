@@ -6,7 +6,8 @@ from playsound import playsound
 print('début du programme')
 #step definition
 h=0.01
-
+#number of points
+N=100000
 
 #define constant
 for b0 in np.arange(0.29,0.32,0.001): #We define what are the boundary of the thing we will study
@@ -55,7 +56,7 @@ for b0 in np.arange(0.29,0.32,0.001): #We define what are the boundary of the th
     Coupe_Zx = []
     Coupe_Zy = []
 
-    for k in np.arange (0,100000,h):
+    for k in np.arange (0,N,h):
 
                         #order1
         kx1 = vx*h
