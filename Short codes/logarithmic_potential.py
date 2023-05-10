@@ -12,6 +12,10 @@ import pickle
 
 
 ### constantes definition: ###
+#step definition
+h=1e-2
+#number of points
+N = 1e3 
 
 #G =
 #M =
@@ -113,8 +117,6 @@ def acceleration_z(x,y,z):
 
 ### Runge Kutta order 4 ###
 
-#step definition
-h=1e-2
 
 #empty lists
 X = []
@@ -125,7 +127,7 @@ Vy = []
 Vz = []
 E = []
 
-N = 1e3 #number of points
+
 
 for k in np.arange(0,N,h):
 
