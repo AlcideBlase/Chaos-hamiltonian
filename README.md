@@ -10,3 +10,5 @@ In the long one its the same but without the data and the Poincaré code because
 If you want to change something in the code you can open it and change the parameter at the begining.
 For the integration part you can change the h value (the step), or N (size of the integration).
 For the poincaré section you can change the C_(x,y,z) values that will change were the Poincaré section is taken. And at the end you can change the different axis were you want to take it. 
+
+A change has been made recently because the name of a variable was false and so the "long codes" weren't working just because of that.
