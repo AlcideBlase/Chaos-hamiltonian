@@ -14,8 +14,10 @@ for b0 in np.arange(0.29,0.32,0.001): #We define what are the boundary of the th
     a = 1
     b = b0
     vx = 0
-    vy = 0.2
-    vz = 0.2
+    vy0 = 0.2
+    vz0 = 0.2
+    vy = vy0
+    vz = vz0
     v0=np.sqrt(vx*vx+vy*vy+vz*vz)
     x = 1
     y = 0
